@@ -1,6 +1,7 @@
 const path = require("path");
 const http = require("http");
 const express = require("express");
+const cors = require("cors");
 const socketio = require("socket.io");
 const formatMsg = require("./utils/messages");
 const {
@@ -17,7 +18,7 @@ const io = socketio(server);
 //Set static folder
 
 app.use(express.static(path.join(__dirname, "public")));
-
+app.use(cors());
 //Run when client connects
 
 io.on("connection", (socket) => {
