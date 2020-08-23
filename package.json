@@ -1,0 +1,21 @@
+{
+  "name": "socketchat",
+  "version": "1.0.0",
+  "description": "Live chat",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisa3074/chat.git"
+  },
+  "author": "Lisa Søndergaard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisa3074/chat/issues"
+  },
+  "homepage": "https://github.com/lisa3074/chat#readme"
+}
