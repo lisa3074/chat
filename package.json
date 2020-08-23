@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "Live chat",
   "main": "server.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
-    "test": "test"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
